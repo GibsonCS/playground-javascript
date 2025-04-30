@@ -14,6 +14,7 @@ class File {
     }
 }
 const file = new File()
+
 // "this" context is lost
 const functionWithoutThisContext =  file.watch
 
