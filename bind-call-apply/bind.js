@@ -1,4 +1,4 @@
-'use-strict'
+'use strict'
 import {watch} from 'node:fs'
 import {readFile} from 'fs/promises'
 
