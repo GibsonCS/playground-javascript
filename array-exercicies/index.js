@@ -24,3 +24,10 @@ const sumNumbers = (numbers) => {
   return numbers.reduce((acc, current) => acc + current, 0);
 };
 console.log(`exercicie04: ${sumNumbers(numbers)}`);
+
+//exercicie05
+const stringsLongerThanFive = (array) => {
+  const total = array.filter((i) => i.length > 5);
+  return total.length;
+};
+console.log(`exercicie05: ${stringsLongerThanFive(fruits)}`);
