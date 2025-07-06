@@ -18,3 +18,9 @@ const isHasFruit = (fruits, fruit) => {
   return fruits.includes(fruit);
 };
 console.log(`exercicie03: ${isHasFruit(fruits, "banana")}`);
+
+//exercicie04
+const sumNumbers = (numbers) => {
+  return numbers.reduce((acc, current) => acc + current, 0);
+};
+console.log(`exercicie04: ${sumNumbers(numbers)}`);
