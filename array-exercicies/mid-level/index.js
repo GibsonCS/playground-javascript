@@ -1,5 +1,5 @@
 const numbers = [1, 2, 4, 6, 8, 9, -4, 7, 60, 10, 9, 12, 61];
-const animals = ["Lion", "Monkey", "Zebra", "Tiger", "Camel"];
+const animals = ["Lion", "Monkey", "Zebra", "Tiger", "Camel, Amora"];
 
 //exercicie06
 const firstNumberGreaterThanTen = (numbers) => {
@@ -18,3 +18,14 @@ const allStringsStartWithUperCase = (array) => {
   return array.every((i) => /^[A-Z]/.test(i));
 };
 console.log(`exercice08: ${allStringsStartWithUperCase(animals)}`);
+
+//exercice09
+const ascendingOrder = (numbers) => {
+  return numbers.sort((a, b) => a - b);
+};
+console.log(`exercice09: ${ascendingOrder(numbers)}`);
+
+const descendingOrder = (numbers) => {
+  return numbers.sort((a, b) => b - a);
+};
+console.log(`exercice09: ${descendingOrder(numbers)}`);
