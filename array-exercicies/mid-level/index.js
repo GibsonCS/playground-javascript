@@ -6,3 +6,9 @@ const firstNumberGreaterThanTen = (numbers) => {
   return numbers.find((n) => n > 10);
 };
 console.log(`exercice06: ${firstNumberGreaterThanTen(numbers)}`);
+
+//exercice:07
+const hasNegativeNumber = (numbers) => {
+  return numbers.some((n) => n < 0);
+};
+console.log(`exercicie07 ${hasNegativeNumber(numbers)}`);
