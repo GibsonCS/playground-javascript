@@ -12,3 +12,9 @@ const pairNumbers = (numbers) => {
   return numbers.filter((n) => n % 2 === 0);
 };
 console.log(`exercicie02: ${pairNumbers(numbers)}`);
+
+//exercicie03
+const isHasFruit = (fruits, fruit) => {
+  return fruits.includes(fruit);
+};
+console.log(`exercicie03: ${isHasFruit(fruits, "banana")}`);
