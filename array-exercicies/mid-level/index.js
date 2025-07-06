@@ -12,3 +12,9 @@ const hasNegativeNumber = (numbers) => {
   return numbers.some((n) => n < 0);
 };
 console.log(`exercicie07 ${hasNegativeNumber(numbers)}`);
+
+//exercice:08
+const allStringsStartWithUperCase = (array) => {
+  return array.every((i) => /^[A-Z]/.test(i));
+};
+console.log(`exercice08: ${allStringsStartWithUperCase(animals)}`);
